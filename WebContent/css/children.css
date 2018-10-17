@@ -1,0 +1,27 @@
+#main1 img {
+				float: left;
+			}
+			
+			#left {
+				margin: 0px 20px 10px 0px;
+				float: left;
+			}
+			#left ul li {
+				float: left;
+				list-style: none;
+			}
+			
+			#left ul li a {
+				display: block;
+				padding: 5px 25px;
+				color: #000;
+				text-decoration: none;
+			}
+			
+			#left li:hover>ul {
+				display: block;
+			}
+			
+			#left ul li a:hover {
+				color: #599AD4;
+			}

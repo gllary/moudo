@@ -1,0 +1,23 @@
+.page-header{
+	margin-top:0px;
+	height:140px;
+	/*background-color: rgb(127,199,255);*/
+}
+.navbar {
+	margin-top:-35px;
+	background-color:rgb(127,199,255);
+}
+.navbar p{
+	color: black;
+	font-style: weiruanyahei;
+	font-size: 18px;
+}
+#footer {
+	background-color:rgb(127,199,255);
+}
+#footer a{
+	color: black;
+}
+.navbar-brand{
+     float:left; 
+}

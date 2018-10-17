@@ -1,0 +1,19 @@
+#thumbnails1 li {
+	width: 40%;
+	float: left;
+}
+
+#thumbnails2 .thumbnail {
+	width: 90%;
+	height: 250px;
+	float: left;
+}
+
+#thumbnails2 .span4 {
+	width: 220px;
+}
+
+#thumbnails2 .span4 .thumbnail img {
+	width: 85%;
+	height: 150px;
+}

@@ -1,0 +1,128 @@
+/*图上文字设置*/
+.lanrenzhijia {
+				width: 650px;
+				 margin-top: 5px;
+				overflow: hidden;
+				 float: left;
+			}
+			
+			.lanrenzhijia ul {
+				width: 650px;
+			}
+			
+			.lanrenzhijia ul li {
+				float: left;
+				margin-right: 6px;
+				margin-bottom: 10px;
+				display: inline;
+				width: 250px;
+				height: 200px;
+				overflow: hidden;
+				position: relative;
+			}
+			
+			.lanrenzhijia ul li .photo {
+				width: 250px;
+				height: 200px;
+				overflow: hidden;
+			}
+			
+			.lanrenzhijia .rsp {
+				width: 250px;
+				height: 200px;
+				overflow: hidden;
+				position: absolute;
+				background: #000;
+				top: 0px;
+				left: 0px;
+			}
+			
+			.lanrenzhijia .text {
+				position: absolute;
+				width: 250px;
+				height: 200px;
+				left: -300px;
+				top: 0px;
+				overflow: hidden;
+			}
+			
+			.lanrenzhijia .text h3 {
+				width: 250px;
+				margin-top: 30px;
+				height: 50px;
+				line-height: 50px;
+				text-align: center;
+				color: #FFFFFF;
+				font-size: 20px;
+			}
+			
+			.lanrenzhijia .text a {
+				text-decoration: none
+			}
+			
+			.lanrenzhijia .text div {
+				text-align: center;
+				color: #FFFFFF;
+				font-size: 18px;
+			}
+			
+			.slide {
+				padding: 0;
+				margin: 0px;
+			}
+			
+			.slides {
+				width: 700px;
+				height: 500px;
+				border: 1px solid gold;
+				margin-top: 20px;
+				margin-bottom: 20px;
+				overflow: hidden;
+				position: relative;
+			}
+			
+			.slides li {
+				list-style: none;
+			}
+			
+			.slides ul:first-child {
+				width: 9999px;
+				overflow: hidden;
+				position: absolute;
+				transition: all 5s; //过渡效果 
+			}
+			
+			.slides ul:first-child li {
+				float: left;
+				width: 700px;
+				height: 500px;
+			}
+			
+			.slides ul:last-child {
+				width: 100px;
+				height: 15px;
+				background-color: rgba(0, 0, 0, .5);
+				border-radius: 10px;
+				position: absolute;
+				bottom: 10px;
+				left: 50%;
+				margin-left: -10px;
+			}
+			
+			.slides ul:last-child li:first-child {
+				margin-left: 4px;
+			}
+			
+			.slides ul:last-child li {
+				cursor: pointer;
+				float: left;
+				width: 15px;
+				height: 15px;
+				margin-right: 4px;
+				background-color: #ccc;
+				border-radius: 50%;
+			}
+			
+			.slides ul:last-child li.star {
+				background-color: gold;
+			}
